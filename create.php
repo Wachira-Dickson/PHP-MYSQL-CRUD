@@ -13,7 +13,7 @@
         <header class="mb-4">
             <h1>Add New Book</h1>
             <div>
-                <a href="" class="btn btn-primary">Back to Book List</a>
+                <a href="index.php" class="btn btn-primary">Back to Book List</a>
             </div>
         </header>
         <form action="process.php" method="POST">
@@ -39,7 +39,7 @@
             <div class="mb-3">
                 <input type="text" class="form-control" name="description" placeholder="Book Description:" required>
             </div>
-            <button type="submit" class="btn btn-primary">Add Book</button>
+            <button type="submit" name="create" class="btn btn-primary">Add Book</button>
         </form>
     </div>
 </body>
